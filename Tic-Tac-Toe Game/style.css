@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto';
+    height: 70vh;
+    /* background-color: darkcyan; */
+    background-image: url('https://i.pinimg.com/736x/72/85/50/72855054b4cc40b286c36e096c75bd4d.jpg');
+    background-size: cover;
+    
+    text-align: center;
+    padding-top: 20px;
+    font-size: 28px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCDC94;
+    color: rgb(242, 3, 27);
+    font-size: 24px;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 100px;
+    width: 100px;
+    border-radius: 1rem;
+    border: none;
+    font-size: 50px;
+    box-shadow: inset;
+    cursor: pointer;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.reset {
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.msg-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.msg {
+    font-size: 32px;
+    color: #FF204E;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+h1 {
+    color: #A91D3A;
+    
+}
